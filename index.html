@@ -8,16 +8,16 @@
   </head>
   <body>
     <main class="card">
-      <p class="eyebrow">GitHub連携テスト用デモ</p>
-      <h1>ClaudeFlare の動作確認</h1>
-      <p class="lead">
+      <p class="card__eyebrow">GitHub連携テスト用デモ</p>
+      <h1 class="card__title">ClaudeFlare の動作確認</h1>
+      <p class="card__lead">
         このページは、GitHub リポジトリと連携した最小の動作確認用です。<br />
         ボタンを押すと、ページが即時に反応します。
       </p>
 
-      <button id="demoButton">動作確認ボタン</button>
-      <p id="message" class="message">まだ押されていません。</p>
-      <p id="time" class="time">現在時刻: --:--:--</p>
+      <button id="demoButton" class="card__button" type="button">動作確認ボタン</button>
+      <p id="message" class="card__message" role="status">まだ押されていません。</p>
+      <p id="time" class="card__time">現在時刻: --:--:--</p>
     </main>
 
     <script src="script.js"></script>

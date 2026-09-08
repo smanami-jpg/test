@@ -10,7 +10,6 @@ function updateTime() {
 button.addEventListener('click', () => {
   const now = new Date();
   message.textContent = `動作確認OK! ${now.toLocaleTimeString('ja-JP')} にクリックされました。`;
-  message.style.color = '#fef08a';
 });
 
 updateTime();
